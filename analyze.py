@@ -3,6 +3,7 @@ import sys
 from matplotlib import pyplot as plt
 
 def analyze(filename, outpufile):
+	'''this code belongs to Emily but it has been edited by Paul'''
     data = np.loadtxt(fname=filename, delimiter=',')
     
     plt.figure(figsize=(10.0, 3.0))
